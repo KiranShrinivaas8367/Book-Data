@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Link to fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Link to cloudflare icons-->
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    </link>
+    <!--Link to boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <script src="./script.js" defer></script> -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Book-Data</title>
+</head>
+<body>
+    <header class="navbar container">
+        <nav>
+            <p>BOOK STATION</p>
+            <!--Cart icon-->
+            <svg id="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></svg>
+            <!-- <i class='bx bx-cart' style='color:#1c1c1c' ></i> -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!--Content-->
+                <div class="cart-content">
+
+                    <!--<div class="cart-box">
+                        <img src="./Assets/img2.jpg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Book-Name</div>
+                            <div class="cart-price">Rs.25</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        Remove Cart
+                        <i class='bx bxs-trash-alt cart-remove'></i>
+                        <svg class="cart-remove" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(28, 28, 28, 1);transform: ;msFilter:;"><path d="M6 7H5v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7H6zm10.618-3L15 2H9L7.382 4H3v2h18V4z"></path></svg>
+                    </div>-->
+                </div>
+
+                    <!--Total-->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">0</div>
+                    </div>
+                    <!--Buy-btn-->
+                    <input type="submit" value="Buy Now" class="btn-buy" name="" id="">
+                    <!--Cart-close-->
+                    <svg class="close-cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(28, 28, 28, 1);transform: ;msFilter:;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+
+            </div>
+        </nav>
+    </header>
+
+    <section class="products">
+
+        <h2>Shop Products</h2>
+        <div class="products-inner">
+
+            <div class="first-row-products">
+                
+                <div class="card">
+                    <img class="prod-img" src="./Assets/img.jpg">
+                    <div class="product-name">
+                        Manual For Living
+                    </div>
+                    <div class="product-cost">
+                        <p class="price">Rs.25</p>
+                        <p class="add-cart">BUY NOW</p>
+                        <!-- <i class='bx bxs-trash-alt add-cart'></i>
+                        <svg class="add-cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"></path></svg> -->
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="prod-img" src="./Assets/img2.jpg">
+                    <div class="product-name">
+                        GoodBye Eri
+                    </div>
+                    <div class="product-cost">
+                        <p class="price">Rs.25</p>
+                        <p class="add-cart">BUY NOW</p>
+                        <!-- <svg class="add-cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"></path></svg> -->
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="prod-img" src="./Assets/img3.jpg">
+                    <div class="product-name">
+                        Okinawa
+                    </div>
+                    <div class="product-cost">
+                        <p class="price">Rs.25</p>
+                        <p class="add-cart">BUY NOW</p>
+                        <!-- <svg class="add-cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"></path></svg> -->
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="prod-img" src="./Assets/img4.jpg">
+                    <div class="product-name">
+                        Bonnard
+                    </div>
+                    <div class="product-cost">
+                        <p class="price">Rs.25</p>
+                        <p class="add-cart">BUY NOW</p>
+                        <!-- <svg class="add-cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"></path></svg> -->
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="first-row-products">
+                
+                <div class="card">
+                    <img class="prod-img" src="./Assets/img5.jpg">
+                    <div class="product-name">
+                        Robert Capa
+                    </div>
+                    <div class="product-cost">
+                        <p class="price">Rs.25</p>
+                        <p class="add-cart">BUY NOW</p>
+                        <!-- <svg class="add-cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"></path></svg> -->
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="prod-img" src="./Assets/img6.jpg">
+                    <div class="product-name">
+                        Don Winslow
+                    </div>
+                    <div class="product-cost">
+                        <p class="price">Rs.25</p>
+                        <p class="add-cart">BUY NOW</p>
+                        <!-- <svg class="add-cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"></path></svg> -->
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="prod-img" src="./Assets/img7.jpg">
+                    <div class="product-name">
+                        Instead Of A Letter
+                    </div>
+                    <div class="product-cost">
+                        <p class="price">Rs.25</p>
+                        <p class="add-cart">BUY NOW</p>
+                        <!-- <svg class="add-cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"></path></svg> -->
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="prod-img" src="./Assets/img8.jpg">
+                    <div class="product-name">
+                        The French Dispatch
+                    </div>
+                    <div class="product-cost">
+                        <p class="price">Rs.25</p>
+                        <p class="add-cart">BUY NOW</p>
+                        <!-- <svg class="add-cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"></path></svg> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
